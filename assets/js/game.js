@@ -103,6 +103,7 @@ var fight = function(enemyName) {
                   shop();
                 }
             }
+        }
             // this line is not working bc line 63 has a break!
             else {
             window.alert("You have lost your robot in battle! Game Over!");
@@ -186,13 +187,8 @@ var fight = function(enemyName) {
                         window.alert("You did not pick a valid option. Try again.");
                         shop();
                         break;
-
-                           
-                
                 }
-            }
-
-        };
+            };
 
         
 
